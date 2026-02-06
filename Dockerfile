@@ -6,7 +6,7 @@
 
 FROM node:18-alpine
 WORKDIR /app
-RUN apk add --update-cache sqlite?
+RUN apk add --update-cache sqlite
 # copia só o necessário pra instalar deps
 COPY package*.json ./
 RUN npm install
