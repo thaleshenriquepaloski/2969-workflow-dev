@@ -1,6 +1,5 @@
 /* eslint-disable camelcase */
-/* eslint no-unused-vars: */
-import db from '../db/dbconfig';
+import db from '../db/dbconfig.js';
 
 class Evento {
   constructor({
